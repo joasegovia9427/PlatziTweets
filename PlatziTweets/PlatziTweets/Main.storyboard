@@ -59,6 +59,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Ayuda">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="CpL-4d-5nq" kind="show" id="1T8-ht-b1m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfj-4j-9tM">
                                 <rect key="frame" x="38" y="645" width="313" height="31"/>
@@ -67,6 +70,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Registrate aqui">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Z5M-1t-Pv6" kind="showDetail" id="Hv2-rK-Ejs"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nHB-K6-Kfb">
                                 <rect key="frame" x="39" y="340" width="313" height="34"/>
@@ -89,15 +95,31 @@
             <objects>
                 <viewController id="Z5M-1t-Pv6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2ap-PA-vu8">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="yYy-XR-Wt2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vWQ-o4-Ngh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1060" y="953"/>
+            <point key="canvasLocation" x="725" y="935"/>
+        </scene>
+        <!--Ayuda-->
+        <scene sceneID="xy5-AH-kAW">
+            <objects>
+                <viewController id="CpL-4d-5nq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c3A-kL-fjM">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Oci-UA-y6M"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ayuda" id="Rmu-M8-yBU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48w-g0-wk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1491" y="935"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JMc-cB-2an">
@@ -123,8 +145,11 @@
         <namedColor name="facebook">
             <color red="0.23529411764705882" green="0.36078431372549019" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
