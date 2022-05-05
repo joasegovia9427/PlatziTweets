@@ -9,7 +9,7 @@ A project to get practice the Platzi course, "Curso de Desarrollo de Apps para i
 ![Platform](https://img.shields.io/badge/Platform-iOS-blue)
 ![Dependencies](https://img.shields.io/badge/Dependencies-1-green)
 
-Start at 2022.05.01 to 2022.--.-- with note -.-- (--/--)
+Start at 2022.05.01 to 2022.--.-- with note -.-- (--/--) </br>
 Platzi credential https://platzi.com/p/joasegovia9427/course/------soon-------/diploma/detalle/
 
 You can see my GoodNotes in pdf:: https://drive.google.com/file/d/1ih07j39Q8me5UbA7_kA4mNmERpVcE7fP/view?usp=sharing
