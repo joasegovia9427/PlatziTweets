@@ -17,4 +17,4 @@ You can see my GoodNotes in pdf:: https://drive.google.com/file/d/1ih07j39Q8me5U
 Fimga design:: https://www.figma.com/file/LWSnx2z2jly6kmeqaWwn0V/PlatziTweets?node-id=0%3A1
 
 ## Work progress' Screenshots / Capturas de Progreso del trabajo
-<h3> Puedes encontrar todo el timeline en la carpeta <a title="ScreensShots Folder" href="https://github.com/joasegovia9427/PlatziTweets/tree/main/ScreensShots" target="_blank">ScreensShots Folder</a></h3>
+<h3> Puedes encontrar todo el timeline en la carpeta <a title="ScreensShots Folder" href="https://github.com/joasegovia9427/PlatziTweets/tree/main/ScreenShots" target="_blank">ScreensShots Folder</a></h3>
