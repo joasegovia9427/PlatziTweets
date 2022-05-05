@@ -12,7 +12,7 @@
         <!--Inicio-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="ViewController" customModule="PlatziTweets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,6 +22,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="emailTextFIeld:" destination="qau-M0-9o0" eventType="editingDidEnd" id="YCf-rA-C6W"/>
+                                    <action selector="emailTextField:" destination="qau-M0-9o0" eventType="editingDidEnd" id="NKg-WZ-tTE"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhA-Jd-obP">
                                 <rect key="frame" x="38" y="415" width="313" height="46"/>
@@ -43,15 +47,12 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginButtonAction" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cRm-Rh-2Y5"/>
+                                    <action selector="loginButtonAction" destination="qau-M0-9o0" eventType="touchUpInside" id="qcY-dU-Dmc"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="XRj-yz-FTs">
-                                <rect key="frame" x="38" y="14" width="313" height="318"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-YI-85m">
                                 <rect key="frame" x="38" y="693" width="313" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,15 +81,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="XRj-yz-FTs">
+                                <rect key="frame" x="38" y="123" width="313" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="facebook"/>
                     </view>
                     <navigationItem key="navigationItem" title="Inicio" id="Fml-1A-tcG"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="Acu-uQ-1cu" id="tAV-zV-yEx"/>
+                        <outlet property="passwordTextField" destination="nHB-K6-Kfb" id="2wj-bZ-soH"/>
+                        <segue destination="ZZE-Up-lQC" kind="presentation" identifier="home_segue" modalPresentationStyle="fullScreen" id="7cJ-tU-abW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="qau-M0-9o0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1060" y="79.620853080568722"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="e8h-EW-pSe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="ZZE-Up-lQC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8SS-FO-xLA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="80"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GCH-6h-7ba">
