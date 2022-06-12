@@ -146,6 +146,16 @@
             </objects>
             <point key="canvasLocation" x="725" y="935"/>
         </scene>
+        <!--Tablas-->
+        <scene sceneID="a0C-p6-0YP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tablas" id="91m-zZ-DdH" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OXq-nR-wZr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BQV-Hx-ANx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1475" y="1375"/>
+        </scene>
         <!--Ayuda-->
         <scene sceneID="xy5-AH-kAW">
             <objects>
@@ -153,6 +163,17 @@
                     <view key="view" contentMode="scaleToFill" id="c3A-kL-fjM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWV-4U-CtT">
+                                <rect key="frame" x="128" y="127" width="119" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tablas"/>
+                                <connections>
+                                    <segue destination="91m-zZ-DdH" kind="presentation" modalPresentationStyle="fullScreen" id="mZF-iN-ctG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Oci-UA-y6M"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
@@ -160,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48w-g0-wk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1491" y="935"/>
+            <point key="canvasLocation" x="1490.4000000000001" y="934.18290854572717"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="JMc-cB-2an">
