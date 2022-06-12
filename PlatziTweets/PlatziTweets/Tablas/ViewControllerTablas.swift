@@ -19,11 +19,11 @@ class ViewControllerTablas: UIViewController {
         "@juan",
         "@joaquin",
         "@carla",
-        "@carlos",
-        "@juan",
-        "@joaquin",
-        "@carla",
-        "@juana"
+        "@maria",
+        "@pepe",
+        "@mike",
+        "@lu",
+        "@hello"
     ]
     /*
      1. Implementar DataSource <- interfaz
@@ -66,7 +66,7 @@ extension ViewControllerTablas: UITableViewDataSource{
         //opcion larga
         if let newCell = cell as? TweetTableViewCell{
 //            newCell.setupCell(username: "@usuario\(indexPath.row)", message: "Soy un tweet!")
-            newCell.setupCell(username: dataSource[indexPath.row], message: "Soy un tweet!")
+            newCell.setupCell(username: dataSource[indexPath.row], message: "Soy un tweet!", rowNumber: indexPath.row)
         }
         
 //        cell.textLabel?.text = "Soy la celda #\(indexPath.row)"

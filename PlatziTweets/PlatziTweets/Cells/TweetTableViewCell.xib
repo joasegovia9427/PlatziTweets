@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lgp-nc-8Gv">
-                        <rect key="frame" x="20" y="46" width="60" height="60"/>
+                        <rect key="frame" x="20" y="36" width="60" height="60"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="60" id="SGn-dK-pDu"/>
@@ -40,7 +40,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="JG6-8N-rsd" secondAttribute="trailing" constant="20" id="3sM-9k-BpX"/>
-                    <constraint firstItem="lgp-nc-8Gv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="35" id="7sl-NF-9Vv"/>
+                    <constraint firstItem="lgp-nc-8Gv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="7sl-NF-9Vv"/>
                     <constraint firstItem="JG6-8N-rsd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="45" id="8EU-s2-HmM"/>
                     <constraint firstItem="VHN-Om-Bbh" firstAttribute="leading" secondItem="lgp-nc-8Gv" secondAttribute="trailing" constant="10" id="D1D-8p-s3w"/>
                     <constraint firstAttribute="trailing" secondItem="VHN-Om-Bbh" secondAttribute="trailing" constant="20" id="HMr-DK-KEi"/>
